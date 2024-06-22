@@ -10,7 +10,7 @@ import pickle
 
 import re
 
-import boto3
+#import boto3
 
 import string
 
