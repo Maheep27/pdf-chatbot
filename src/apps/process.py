@@ -22,7 +22,7 @@ import tempfile
 
 import logging
 
-import torch
+#import torch
 
 from transformers import AutoModelForSeq2SeqLM,AutoTokenizer, pipeline, BitsAndBytesConfig,T5Tokenizer, T5ForConditionalGeneration
 from langchain.document_loaders import PyPDFLoader
