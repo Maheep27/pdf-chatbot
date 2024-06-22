@@ -54,7 +54,7 @@ def app(data):
 
             model = st.sidebar.radio(
             "",
-            options=["Flan-T5-xxl","Llama2"],
+            options=["Flan-T5","Llama2"],
             index=0,
             horizontal=True,
                 )
