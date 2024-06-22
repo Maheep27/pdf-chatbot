@@ -1,4 +1,4 @@
-config={"LLM_model":"google/flan-t5-xxl",
+config={"LLM_model":"google/flan-t5-base",
 "LLM_gpu":"gpu",
 "LLM_task":"text2text-generation",
 "LLM_temp":0.8,
