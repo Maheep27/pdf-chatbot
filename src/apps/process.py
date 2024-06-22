@@ -268,7 +268,7 @@ class Qna:
         ]
 
 
-        if model=="Flan-T5-xxl":
+        if model=="Flan-T5":
 
             predictions = flan_chain.apply(examples)
             logger.info("context searched on vector db for flan-T5 model: "+str(predictions))
